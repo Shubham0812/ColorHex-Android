@@ -1,8 +1,8 @@
 # ColorHex
 ColorHex- Hex to Rgb Color Converter
 
-Colors can be saved in the app for later reference too.
-Can also speak the name of the color if you do not know any hex or rgb value of the color.
+Colors can be saved in the app for later reference.
+Can also speak the name of the color if  none of thehex or rgb value of color is known.
 
 SNAPSHOTS
 
