@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2979FF</item>
+        <item name="colorPrimaryDark">#FFEE58</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimaryInverse">@android:color/background_dark</item>
+        <item name="android:textColorSecondaryInverse">@android:color/background_dark</item>
+        <item name="android:statusBarColor">?android:attr/colorForeground</item>
+    </style>
+</resources>
