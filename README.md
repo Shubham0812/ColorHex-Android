@@ -1,13 +1,58 @@
 # ColorHex
-ColorHex- Hex to Rgb Color Converter
+## ColorHex - Hex to RGB Color Converter
 
-Color codes can also be saved in the app.The name of the color can also be said and the corresponding rgb and hex values can be shown.
+An android application which can convert the given Hexadecimal color value to RGB color value.
 
-SNAPSHOTS
+## Motivation
+I made this android application to help me out with coding with different languages. This application also helps me keep my favorite colors saved so that I can refer it quickly. I find this app very convenient.
 
-https://cloud.githubusercontent.com/assets/19903539/25692177/3e57e994-30be-11e7-86b5-f5b85e1bc20a.png
-https://cloud.githubusercontent.com/assets/19903539/25692174/3e1a7c58-30be-11e7-8e05-d240a0601141.png
-https://cloud.githubusercontent.com/assets/19903539/25692176/3e3fbf9a-30be-11e7-848f-aa23d9c7cc39.png
-https://cloud.githubusercontent.com/assets/19903539/25692175/3e3389dc-30be-11e7-949c-a8d04de6e955.png
-https://cloud.githubusercontent.com/assets/19903539/25692178/3e5894b6-30be-11e7-8449-dbb217a95380.png
-https://cloud.githubusercontent.com/assets/19903539/25692179/3e596f08-30be-11e7-818a-2488cea1c1ce.png
+## Screenshots
+
+![Home Screen](https://github.com/Shubham0812/ColorHex/blob/master/assets/screenshots/intro.png)
+
+![Options Menu](https://github.com/Shubham0812/ColorHex/blob/master/assets/screenshots/options.png)
+
+![Rgb values converted](https://github.com/Shubham0812/ColorHex/blob/master/assets/screenshots/blue_conver.png)
+
+![black conversion](https://github.com/Shubham0812/ColorHex/blob/master/assets/screenshots/black_converted.png)
+
+![Saved Colors](https://github.com/Shubham0812/ColorHex/blob/master/assets/screenshots/saved_colors.png)
+
+![Color speech Recognizer](https://github.com/Shubham0812/ColorHex/blob/master/assets/screenshots/color_speaker.png)
+
+
+## Technology used
+ Nothing much just Java and Android Studio.
+
+## Features
+- Generates the rgb color based on the entered Hex value.
+- The colors generated can be saved for later reference.
+- Has a speech recognizer through which user can speak the name of the color. 
+- Clean design and simplistic UI.
+- Backwards compatability till Android 4.4 (Kitkat)
+
+
+## Code Example
+```
+    private void promptSpeechInput() {
+        Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault());
+        intent.putExtra(RecognizerIntent.EXTRA_PROMPT,getString(R.string.speech_prompt));
+        try {
+            startActivityForResult(intent, REQ_CODE_SPEECH_INPUT);
+        } catch (ActivityNotFoundException e) {
+			Toast.makeText(getApplicationContext(),
+			getString(R.string.speech_not_supported),
+			Toast.LENGTH_SHORT).show();
+        }
+    }
+```
+
+## How to use ?
+1. Download or clone the repository.
+2. Import the project through Android Studio.
+3. 
+
+## Credits
+**©** Shubham Kumar Singh | 2018
