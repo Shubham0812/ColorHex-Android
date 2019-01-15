@@ -52,7 +52,7 @@ I made this android application to help me out with coding with different langua
 ## How to use ?
 1. Download or clone the repository.
 2. Import the project through Android Studio.
-3. 
+3. Run the application in mobile or simulator running Android 4.4 and above (Kitkat)
 
 ## Credits
 **©** Shubham Kumar Singh | 2018
