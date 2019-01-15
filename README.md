@@ -14,7 +14,7 @@ I made this android application to help me out with coding with different langua
 
 ![Rgb values converted](https://github.com/Shubham0812/ColorHex/blob/master/assets/screenshots/blue_conver.png)
 
-![black conversion](https://github.com/Shubham0812/ColorHex/blob/master/assets/screenshots/black_converted.png)
+![black conversion](https://github.com/Shubham0812/ColorHex/blob/master/assets/screenshots/black_convert.png)
 
 ![Saved Colors](https://github.com/Shubham0812/ColorHex/blob/master/assets/screenshots/saved_colors.png)
 
