@@ -22,7 +22,7 @@ I made this android application to help me out with coding with different langua
 
 
 ## Technology used
- Nothing much just Java and Android Studio.
+ Java and Android Studio.
 
 ## Features
 - Generates the rgb color based on the entered Hex value.
